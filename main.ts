@@ -7,13 +7,13 @@ import { join } from "node:path";
 
 // A concrete little scene in three beats: a week of rehearsing one click,
 // a live-stage escalation of update demanding restart, and the twist —
-// the restart resurrects the rehearsal itself, and that is what gets funded.
+// the restart resurrects the rehearsal itself — and yesterday's me gets hired.
 const SETUP =
   "For our big demo, I rehearsed one perfect click for a week.";
 const ESCALATION =
   "Live on stage, the app demanded an update, the update demanded a restart,";
 const TWIST =
-  "and the restart autoplayed my rehearsal video — yesterday's me, clicking perfectly. The investors funded the recording and asked if it scaled.";
+  "and the restart autoplayed my rehearsal video — yesterday's me, clicking perfectly. The investors funded the recording and hired yesterday's me.";
 
 const JOKE = [SETUP, ESCALATION, TWIST].join(" ");
 
